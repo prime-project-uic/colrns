@@ -11,7 +11,7 @@ This function makes predictions from a "colrns" object
 ## Usage
 
 ```r
-list(list("predict"), list("colrns"))(object, newx)
+predict(object, newx)
 ```
 
 
