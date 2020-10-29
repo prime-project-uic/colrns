@@ -39,7 +39,7 @@ Argument      |Description
 `alpha`     |     Grid for the parameter alpha, the proportion between the lasso penalty (alpha=1) and the ridge penalty (alpha=0). Default is from 0.1 to 0.9 with the interval of 0.1.
 `lambda.min`     |     Whether to estimate the coefficients at lambda.min or lambda.1se. Using lambda.1se tends to have a more sparse solution. Default is lambda.min.
 `cutoff`     |     Cutoff to construct the lead cluster. Default is 0.5.
-`r.group`     |     Minimum ratio of predictors to be included in the lead cluster. The minimum number of predictors recruited in the lead cluster d can be n-1 or n/log(n) (Fan and Lv, 2008), or 2n/log(n) (Zhong and Zhu, 2015). The minimum ratio can be d/number of total predictors*100. When sample size n is high, we recommend to use between 0.2 and 0.4. Default is 0.3.
+`r.group`     |     Minimum ratio of predictors to be included in the lead cluster. The minimum number of predictors recruited in the lead cluster d can be n-1 or n/log(n) (Fan and Lv, 2008), or 2n/log(n) (Zhong and Zhu, 2015). The minimum ratio can be d/number of total predictors*100. When sample size n is high, we recommend to use the number between 0.2 and 0.4. Default is 0.3.
 `niter`     |     Number of iterative procedures. Default is 150.
 
 
