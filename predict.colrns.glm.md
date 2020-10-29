@@ -11,7 +11,7 @@ This function makes predictions from a "colrns.glm" object
 ## Usage
 
 ```r
-list(list("predict"), list("colrns.glm"))(object, newx, type = "response")
+predict(object, newx, type = "response")
 ```
 
 
