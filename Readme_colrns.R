@@ -25,7 +25,8 @@ setwd("..")
 install("colrns")
 
 ### Check the help page for the functions
-#In case of error, try after restarting R with the commend ".rs.restartR()"
+#In case of message "Error in fetch(key) : lazy-load database ... is corrupt", try again after restarting R with the commend ".rs.restartR()"
+#It is a known problem of the package "roxygen2"
 ?colrns
 ?colrns.glm
 ?predict.colrns
