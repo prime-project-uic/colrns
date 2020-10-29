@@ -3,7 +3,7 @@
 #' This function allows you to implement COLRNS-GLM for high dimensional data analysis with binary responses.
 #' This package is based on the 'glmnet' package (Friedman et al., 2019)
 #'
-#' @param y response (binary)
+#' @param y Response (binary)
 #' @param x Design matrix including predictors and confounders
 #' @param penalty.factor Separate penalty factor can be applied to each coefficient. It can be 0 for some variables. If 0, corresponding variables are always included in the model. Default is 1 for all variables.
 #' @param nfolds Number of folds that is used in cross-validation. Default is 10.
