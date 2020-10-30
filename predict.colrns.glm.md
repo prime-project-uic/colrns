@@ -50,7 +50,7 @@ beta=rep(c(1,1,1,rep(0,7)),3)
 prob=exp(x%*%beta)/(1+exp(x%*%beta))
 y=rbinom(n, 1, prob)
 ### Fit the model
-colrns.glm(x, y, lambda.min=FALSE)
+fit.colrns.glm = colrns.glm(x, y, lambda.min=FALSE)
 ### Predict
 predict.colrns.glm(object=fit.colrns.glm, newx=x[1:10,])
 predict.colrns.glm(object=fit.colrns.glm, newx=x[1:10,], type="link")
